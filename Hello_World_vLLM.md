@@ -1,7 +1,7 @@
 # Hello World vLLM
 
 ## TL;DR
-The notebook is a concise, quick-start guide that sets up vLLM, loads a 125M model, demonstrates the generation of replies, and showcases the manipulation of the model's log probabilities and tokens. It is a minimal template for experiments with larger models, streaming, and benchmarking.
+The [notebook](./Hello_World_vLLM.ipynb) is a concise, quick-start guide that sets up vLLM, loads a 125M model, demonstrates the generation of replies, and showcases the manipulation of the model's log probabilities and tokens. It is a minimal template for experiments with larger models, streaming, and benchmarking.
 
 ## High-level flow:
 1. Environment bootstrap
