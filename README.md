@@ -1,5 +1,7 @@
 # Hello_vLLM
-A project to demonstrate basic functionality of vLLM.
+This repo is a personal experiment to demonstrate basic vLLM functionality.<br>
+I welcome ideas, pull requests, and connections on [LinkedIn](https://www.linkedin.com/in/dror-meirovich/).
+
 ## Make vLLM work on a Paperspace A5000
 I need the editable install version of vLLM (pip install -e .) because I plan to add my own CUDA kernels to vLLM's source.<br>
 But the vanilla `pip install -e .` fetches the latest PyTorch wheel, which is built for CUDA 12.x. On a Paperspace A5000, this collides with the pre-installed CUDA 12.0 toolkit and breaks the vLLM build.
